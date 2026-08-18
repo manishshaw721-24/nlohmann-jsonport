@@ -1,8 +1,8 @@
-# bump: nlohmann-json[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[N[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-version /NLOHMANN-JSON[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[N[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_VERSION="(.*)"/ https://github.com/nlohmann/json/releases/tag/v3.12.0|semver:*
-# NLOHMANN-JSON[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[N[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_VERSION="V.R.M"
+# bump: nlohmann-json -version /NLOHMANN-JSON _VERSION="(.*)"/ https://github.com/nlohmann/json/releases/tag/v3.12.0|semver:*
+# NLOHMANN-JSON _VERSION="V.R.M"
 
 ###
-### Build control file for the nlohmann-json[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[N[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C port
+### Build control file for the nlohmann-json  port
 ###
 
 ###
@@ -66,7 +66,7 @@ zopen_get_version() {
 #  export ZOPEN_EXTRA_CFLAGS="\${ZOPEN_EXTRA_CFLAGS} -I\${PWD}/include"
 #  export ZOPEN_EXTRA_CXXFLAGS="\${ZOPEN_EXTRA_CXXFLAGS} -I\${PWD}/include"
 #  export ZOPEN_EXTRA_LDFLAGS="\${ZOPEN_EXTRA_LDFLAGS} -L\${PWD}/lib"
-#  export ZOPEN_EXTRA_LIBS="\${ZOPEN_EXTRA_LIBS} -lnlohmann-json[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[N[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"
+#  export ZOPEN_EXTRA_LIBS="\${ZOPEN_EXTRA_LIBS} -lnlohmann-json "
 #fi
 #END
 #}
@@ -131,4 +131,3 @@ zopen_get_version() {
 #zopen_pre_terminate(){
 #  ## This function runs before 'zopen build' terminates.
 #}
-
