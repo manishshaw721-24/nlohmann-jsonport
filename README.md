@@ -1,6 +1,6 @@
-[![Automatic version updates](https://github.com/zopencommunity/nlohmann-json[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[N[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cport/actions/workflows/bump.yml/badge.svg)](https://github.com/ZOSOpenTools/nlohmann-json[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[N[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cport/actions/workflows/bump.yml)
+(https://github.com/zopencommunity/nlohmann-json[Cport/actions/workflows/bump.yml)
 
-# nlohmann-json[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[N[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+# nlohmann-json
 
 JSON for Modern C++
 
