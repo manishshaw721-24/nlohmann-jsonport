@@ -8,15 +8,14 @@ JSON for Modern C++
 
 Use the zopen package manager ([QuickStart Guide](https://zopen.community/#/Guides/QuickStart)) to install:
 ```bash
-zopen install nlohmann-json[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[N[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-```
+zopen install nlohmann-json port
 
 # Building from Source
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/zopencommunity/nlohmann-json[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[N[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cport.git
-cd nlohmann-json[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[N[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cport
+git clone https://github.com/zopencommunity/nlohmann-jsonCport.git
+cd nlohmann-jsonport
 ```
 2. Build using zopen:
 ```bash
